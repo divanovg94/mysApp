@@ -5,6 +5,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
+    @usernamef=current_user.first_name
+    @usernamel=current_user.last_name
     @posts = current_user.posts
   end
 
