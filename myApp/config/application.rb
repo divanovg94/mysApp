@@ -19,7 +19,7 @@ module MyApp
     	:domain => "mail.google.com" ,
     	:port  => 587 ,
     	:user_name => "divanovg1994@gmail.com" ,
-    	:password => "ly0880155" ,
+    	:password => "dg005511" ,
     	:authentication => "login" ,
     	:enable_starttls_auto => true
 
